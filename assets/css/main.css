@@ -44,6 +44,8 @@ body section#splashscreen div.info{
   body section#splashscreen div.info p.tagline{
     font-size: 18px;
     font-family:HelveticaNeue-Thin;
+    line-height:2em;
+    padding-bottom:20px;
     color: #FEFFFA;
     text-align:center;
   }

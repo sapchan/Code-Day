@@ -1,6 +1,7 @@
 <?php
   session_start();
   include("config.php");
+  $files = glob('assets/css/*.{css}', GLOB_BRACE);
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +9,6 @@
 <head>
   <title>FireFly</title>
   <?php
-  $files = glob('assets/css/*.{css}', GLOB_BRACE);
   foreach($files as $file) {
     echo "<link rel='stylesheet' href='$file' media='all'>\n";
   }

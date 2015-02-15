@@ -117,15 +117,17 @@ if (!isset($_SESSION['login_user'])){
       echo "</div>";
     }
 }
-?><br><br>
+?>
+<br><br>
 <div class="row">
   <div class="large-12 columns">
     sum: <?php echo "$" . $rowsum[0]; ?>
   </div>
+  <div class="large-12 columns">
+    <a target="_blank" href="graphs.php" style="color:#58A8BD"> View Graphs </a>
+  </div>
 </div>
 </div>
-
-
 <?php
 }
 ?>

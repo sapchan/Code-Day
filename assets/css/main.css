@@ -1,0 +1,127 @@
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: "helvetica";
+  }
+.title{
+  text-align:center;
+}
+
+body{
+  margin:0;
+  width:100%;
+  height:100%;
+}
+
+body section#splashscreen{
+  background-color:#2D2D2D;
+  overflow:hidden;
+  vertical-align:middle;
+}
+
+body section {
+  position:relative;
+}
+
+body section#splashscreen div.info{
+  position: relative;
+  top:17%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width:100%;
+}
+
+{
+  font-size:155px;
+  line-height:2em;
+  color:#E1E1E1;
+  text-align:center;
+
+}
+
+/* The information on the splashscreen built for different screen sizes */
+
+@media only screen{
+  body section#splashscreen div.info p.tagline{
+    font-size: 18px;
+    font-family:HelveticaNeue-Thin;
+    color: #FEFFFA;
+    text-align:center;
+  }
+  .signup {
+    position:relative;
+    border-radius: 5px;
+    width:150px;
+    height:33.9px;
+    margin:auto;
+  }
+
+  p#apply{
+    font-family:HelveticaNeue-Thin;
+    font-size: 25px;
+    bottom:10%;
+    position:relative;
+    text-align:center;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  body section#splashscreen div.info h2{
+    font-size: 75px;
+    color: #FEFFFA;
+    text-align:center;
+  }
+  body section#splashscreen div.info p.tagline{
+    font-size: 24px;
+    font-family:HelveticaNeue-Light;
+    color: #FEFFFA;
+    text-align:center;
+  }
+  .signup {
+    position:relative;
+    background: #EBF259;
+    border-radius: 5px;
+    border-color:#6D6D6D;
+    width:206px;
+    height:53.9px;
+    margin:auto;
+  }
+
+  .signup:hover{
+    background: #C5CB4A;
+  }
+
+  p#apply{
+    font-family:Helvetica-Light;
+    font-size: 40px;
+    bottom:10%;
+    position:relative;
+    text-align:center;
+    color: #2D2D2D;
+  }
+
+}
+
+.fire {
+  font-family:HelveticaNeue-Medium;
+  font-size:120px;
+  line-height:2em;
+  color:#E1E1E1;
+  text-align:center;
+}
+
+.fly {
+  color:#EBF259;
+  font-family:HelveticaNeue-Medium;
+  font-size:120px;
+  line-height:2em;
+  text-align:center;
+}
+
+/* Section About CSS style */
+
+section.about div.row {
+  margin:auto;
+}
+
+section.about p {
+}

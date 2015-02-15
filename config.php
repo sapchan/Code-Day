@@ -1,3 +1,3 @@
 <?php
-$connection = mysql_connect('localhost','tepavehl_root','password101');
+$connection = mysql_connect('localhost','root','root');
 ?>

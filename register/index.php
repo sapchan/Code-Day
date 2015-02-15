@@ -1,6 +1,4 @@
 <?php
-	include('register.php'); // Includes Registration Script
-	
 	if(isset($_SESSION['login_user'])){
 		header("location: http://tepatti.com/other/mhacks");
 	}

@@ -1,12 +1,11 @@
 <?php
-	include('../login/login.php');
 	if (isset($_SESSION['login_user'])){
 		// Signed In
 		// Do nothing
 	} else {
 		header("location: http://tepatti.com/other/mhacks/login");
 	}
-	
+
 	$username = $_SESSION['login_user'];
 	$content = "";
 	$connection = mysql_connect('localhost','tepavehl_root','password101');

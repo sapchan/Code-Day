@@ -1,13 +1,12 @@
 <?php
-	include('../login/login.php');
 	if (isset($_SESSION['login_user'])){
 		// Signed In
 		// Do nothing
 	} else {
 		header("location: http://tepatti.com/other/mhacks/login");
 	}
-	
-	
+
+
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +47,7 @@
       </div><!-- /.container-fluid -->
     </nav>
     <!--end of navbar -->
-    
+
     <div class="container">
 		<div class="page-header">
 			<h1>New Graph</h1>

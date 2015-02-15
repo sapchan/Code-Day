@@ -1,5 +1,4 @@
 <?php
-	include('../login/login.php');
 	if (isset($_SESSION['login_user'])){
 		// Signed In
 		$loginlogout = "<li><a href=\"http://tepatti.com/other/mhacks/settings\">Settings</a></li><li><a href=\"http://tepatti.com/other/mhacks/logout\">Log Out</a></li>";

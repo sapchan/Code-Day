@@ -1,5 +1,4 @@
 <?php
-	include('login/login.php');
 	if (isset($_SESSION['login_user'])){
 		// Signed In
 		header("location: http://tepatti.com/other/mhacks/graphs");

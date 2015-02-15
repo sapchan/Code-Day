@@ -1,5 +1,4 @@
 <?php
-	include('../login/login.php');
 	if (isset($_SESSION['login_user'])){
 		// Signed In
 		// Do nothing
